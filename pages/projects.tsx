@@ -9,6 +9,7 @@ import { ListActionType } from '~/types';
 import type { GetStaticProps } from 'next';
 
 import type { ListAction, Project } from '~/types';
+import projectsJson from '../public/statics/portfolio.json'
 
 interface ProjectProps {
 	stringifiedProjects: string;
@@ -39,6 +40,8 @@ export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
 
 export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
+	console.log('extras', projectsJson)
+
 
 	return (
 		<Layout.Default seo={{ title: 'Matías ─ projects' }}>
@@ -64,17 +67,46 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 											{
 												type: ListActionType.LINK,
 												href: project.homepage,
-												icon: 'feather:home',
+												icon: 'feather:globe',
 												label: `${project.name} homepage`,
 											} as ListAction,
 										]
 										: []),
-									{
-										type: ListActionType.LINK,
-										href: project.url,
-										icon: 'feather:github',
-										label: 'GitHub Repository',
-									},
+
+
+									...(project.playstore
+										? [
+											{
+												type: ListActionType.LINK,
+												href: project.playstore,
+												icon: 'feather:play',
+												label: `${project.name} homepage`,
+											} as ListAction,
+										]
+										: []),
+
+									...(project.appstore
+										? [
+											{
+												type: ListActionType.LINK,
+												href: project.appstore,
+												icon: 'feather:airplay',
+												label: `${project.name} homepage`,
+											} as ListAction,
+										]
+										: []),
+
+
+									...(project.url
+										? [
+											{
+												type: ListActionType.LINK,
+												href: project.url,
+												icon: 'feather:github',
+												label: `${project.name} homepage`,
+											} as ListAction,
+										]
+										: []),
 								]}
 								description={project.description}
 								icon={<ProjectIcon>{project.icon}</ProjectIcon>}
@@ -82,7 +114,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 								title={project.name}
 							/>
 						)}
-						items={projects}
+						items={projectsJson}
 					/>
 				</Content>
 			</Container>

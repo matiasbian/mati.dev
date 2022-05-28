@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Beat Arena",
+        "description": "Mobile game in which I work from its creation to the current softlaunch. Combines rhythmic mechanics, with lootboxes, inventory, and progression of today's best-known mobile games",
+        "icon": "🎵",
+        "homepage": "https://agonaleagames.com/games/beat-arena/",
+        "post": "",
+        "url": "",
+        "playstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena",
+        "appstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena"
+    },
+    {
+        "name": "Eggszy",
+        "description": "Android Game that i created in 2017 in Unity3D. I remastered this game in 2020, adding some cool features, like a skins system, ads, In app purchases",
+        "icon": "🥚",
+        "homepage": "https://agonaleagames.com/games/beat-arena/",
+        "post": "",
+        "url": "",
+        "playstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena",
+        "appstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena"
+    }
+]
