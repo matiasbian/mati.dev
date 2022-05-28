@@ -41,7 +41,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
 
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ projects' }}>
+		<Layout.Default seo={{ title: 'Matías ─ projects' }}>
 			<Container>
 				<Content>
 					<List.Container
@@ -50,24 +50,24 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 								actions={[
 									...(project.post
 										? [
-												{
-													type: ListActionType.LINK,
-													external: false,
-													href: project.post,
-													icon: 'feather:edit-3',
-													label: `Blog post about ${project.name}`,
-												} as ListAction,
-										  ]
+											{
+												type: ListActionType.LINK,
+												external: false,
+												href: project.post,
+												icon: 'feather:edit-3',
+												label: `Blog post about ${project.name}`,
+											} as ListAction,
+										]
 										: []),
 									...(project.homepage
 										? [
-												{
-													type: ListActionType.LINK,
-													href: project.homepage,
-													icon: 'feather:home',
-													label: `${project.name} homepage`,
-												} as ListAction,
-										  ]
+											{
+												type: ListActionType.LINK,
+												href: project.homepage,
+												icon: 'feather:home',
+												label: `${project.name} homepage`,
+											} as ListAction,
+										]
 										: []),
 									{
 										type: ListActionType.LINK,
