@@ -8,7 +8,7 @@ export function useSeoProps(
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
 
-	const title = 'Matías ─ developer';
+	const title = 'Matías ─ Game developer';
 	const description = "Hey 👋 I'm Matías, a game developer";
 
 	return {

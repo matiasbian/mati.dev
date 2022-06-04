@@ -64,20 +64,20 @@ const ActionText = styled.span(tw`
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: '/blog',
-		icon: <ActionIcon icon="feather:edit-3" />,
-		text: 'Blog',
+		href: '/projects',
+		icon: <ActionIcon icon="feather:globe" />,
+		text: 'Web Applications',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
-		icon: <ActionIcon icon="feather:copy" />,
-		text: 'Projects',
+		href: '/games',
+		icon: <ActionIcon icon="feather:dribbble" />,
+		text: 'Games',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
+		href: 'https://github.com/matiasbian',
 		icon: <ActionIcon icon="feather:github" />,
 		text: 'GitHub',
 	},
@@ -91,7 +91,7 @@ export default function HomePage() {
 	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const description = `I am a ${age} year old game developer`;
+	const description = `I am a ${age} year old game (and web) developer`;
 
 	return (
 		<Layout.Default>
@@ -101,7 +101,7 @@ export default function HomePage() {
 					<Transition duration={1000} enabled={animations}>
 						<Title>
 							<Wave>👋</Wave> I&apos;m Matías, <LineBreak />a{' '}
-							<StyledPill>developer</StyledPill>
+							<StyledPill>game developer</StyledPill>
 						</Title>
 					</Transition>
 

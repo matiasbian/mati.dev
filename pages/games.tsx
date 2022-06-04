@@ -9,7 +9,7 @@ import { ListActionType } from '~/types';
 import type { GetStaticProps } from 'next';
 
 import type { ListAction, Project } from '~/types';
-import projectsJson from '../public/statics/web-portfolio.json'
+import projectsJson from '../public/statics/portfolio.json'
 
 interface ProjectProps {
 	stringifiedProjects: string;
@@ -44,7 +44,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 
 
 	return (
-		<Layout.Default seo={{ title: 'Matías ─ projects' }}>
+		<Layout.Default seo={{ title: 'Matías ─ Games' }}>
 			<Container>
 				<Content>
 					<List.Container

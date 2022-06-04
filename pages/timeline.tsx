@@ -121,7 +121,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 	}));
 
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ timeline' }}>
+		<Layout.Default seo={{ title: 'Matías ─ timeline' }}>
 			<Container>
 				<Content>
 					<List role="list">

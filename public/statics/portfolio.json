@@ -1,22 +1,55 @@
 [
     {
         "name": "Beat Arena",
-        "description": "Mobile game in which I work from its creation to the current softlaunch. Combines rhythmic mechanics, with lootboxes, inventory, and progression of today's best-known mobile games",
+        "description": "Mobile game in which I've working from scratch to the current softlaunch. Combines rhythmic mechanics, lootboxes, inventory, and progression systems of today's best-known mobile games",
         "icon": "🎵",
         "homepage": "https://agonaleagames.com/games/beat-arena/",
         "post": "",
         "url": "",
         "playstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena",
-        "appstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena"
+        "appstore": "https://apps.apple.com/CA/app/id1556631184?l=en",
+        "highlighted": true
+    },
+    {
+        "name": "Argentina Pelea - Debate Mortal",
+        "description": "A parody game of Argentine politicians that became very famous in Argentina. Developed in Unity3D. For copyright reasons, it was removed from the playstore, but it can still be downloaded in other stores",
+        "icon": "🇦🇷",
+        "homepage": "https://www.clarin.com/tecnologia/eleccion-presidencial-llego-celulares-argentina-pelea-debate-mortal-juego-pone-pelear-politicos_0_EljclEng.html",
+        "post": "",
+        "url": "",
+        "playstore": "https://apkcombo.com/es/argentina-pelea-debate-mortal/com.APTeam.ArgentinaPelea/"
     },
     {
         "name": "Eggszy",
-        "description": "Android Game that i created in 2017 in Unity3D. I remastered this game in 2020, adding some cool features, like a skins system, ads, In app purchases",
+        "description": "Android Game that i developed in 2017 in Unity3D. I remastered this game in 2020, adding to it some cool features, like a skins system, ads, in app purchases",
         "icon": "🥚",
-        "homepage": "https://agonaleagames.com/games/beat-arena/",
         "post": "",
         "url": "",
-        "playstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena",
-        "appstore": "https://play.google.com/store/apps/details?id=com.Agonalea.BeatArena"
+        "playstore": "https://play.google.com/store/apps/details?id=com.DeliverGamesMB.Eggszy2"
+    },
+    {
+        "name": "Jumping Hamster",
+        "description": "A Doodle Jump - like Game, for PC Windows and Linux. Developed in Godot 3 in 2018.",
+        "icon": "🐹",
+        "post": "",
+        "homepage": "https://delivergames.itch.io/jumping-hamster",
+        "url": "",
+        "playstore": ""
+    },
+    {
+        "name": "UFO Adventures - Tap to Win",
+        "description": "A Simple Flappy Bird -Like game. Developed in 2 days in Unity3D. For copyright reasons, it was removed from the playstore, but it can still be downloaded in other stores",
+        "icon": "🛸",
+        "post": "",
+        "url": "",
+        "playstore": "https://apkcombo.com/es/ufo-adventures-tap-to-win/com.DeliverGames.UFOAdventures/"
+    },
+    {
+        "name": "Pizza Boy",
+        "description": "An Android game developed in 2016 for Deliver Games. We're inspired in games like Battletoads, Megaman and Sonic. For copyright reasons, it was removed from the playstore, but it can still be downloaded in other stores",
+        "icon": "🍕",
+        "post": "",
+        "url": "",
+        "playstore": "https://apkcombo.com/es/pizza-boy-demo/com.deliver.pizzaboy/"
     }
 ]

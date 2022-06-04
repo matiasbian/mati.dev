@@ -17,6 +17,7 @@ interface ItemProps extends WithChildren {
 	icon?: string | ReactNode;
 	iconColor?: string;
 	title: string;
+	highlighted?: Boolean;
 }
 
 const Container = styled.li(tw`

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Cloodie - Quralo Health Information System",
+        "description": "I was part of the Cloodie's team that developed this web application for health centers. I worked as a fullstack developer, creating microservices on the backend, and some frontend pages",
+        "icon": "👨‍⚕️",
+        "homepage": "https://www.quralo.com/",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
+        "name": "Cloodie - Cloodie HIS",
+        "description": "I Developed some features for this HIS.",
+        "icon": "👩‍⚕️",
+        "homepage": "https://es.cloodie.com/products/his/",
+        "post": "",
+        "url": ""
+    },
+    {
+        "name": "GHIDS - Content for media",
+        "description": "I developed some features as freelancer for this content media website.",
+        "icon": "🎬",
+        "homepage": "https://ghids.com/",
+        "post": "",
+        "url": ""
+    }
+]

@@ -18,14 +18,14 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:edit-3',
-			text: 'Blog',
-			href: '/blog',
+			icon: 'feather:dribbble',
+			text: 'Games',
+			href: '/games',
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:copy',
-			text: 'Projects',
+			icon: 'feather:globe',
+			text: 'Web Applications',
 			href: '/projects',
 		},
 		{
@@ -33,27 +33,28 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			icon: 'feather:clock',
 			text: 'Timeline',
 			href: '/timeline',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:link',
-			text: 'Referrals',
-			href: '/referrals',
-		},
+		}
 	],
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/nurodev',
+			icon: 'feather:facebook',
+			text: 'Facebook',
+			href: 'https://www.facebook.com/matibian/',
+			external: true,
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:instagram',
+			text: 'Instagram',
+			href: 'https://www.instagram.com/mati.bian/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:github',
 			text: 'GitHub',
-			href: 'https://github.com/nurodev',
+			href: 'https://github.com/matiasbian',
 			external: true,
 		},
 	],
@@ -76,20 +77,20 @@ export function useNavigation() {
 		...staticMenuItems,
 		...(!loading && status
 			? [
-					[
-						{
-							type: NavigationItemType.LINK,
-							icon: (
-								<Status.Indicator
-									color={color}
-									pulse={status.discord_status !== 'offline'}
-								/>
-							),
-							text: 'Status',
-							href: '/status',
-						} as NavigationItem,
-					],
-			  ]
+				[
+					{
+						type: NavigationItemType.LINK,
+						icon: (
+							<Status.Indicator
+								color={color}
+								pulse={status.discord_status !== 'offline'}
+							/>
+						),
+						text: 'Status',
+						href: '/status',
+					} as NavigationItem,
+				],
+			]
 			: []),
 	];
 
