@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "nuro.dev",
+	"name": "mati.dev",
 	"version": "2.1.1",
-	"description": "Personal Website for nuro.dev",
-	"repository": "https://github.com/nurodev/nuro.dev.git",
-	"author": "nurodev <me@nuro.dev>",
+	"description": "Matias Bianchi Portfolio",
+	"repository": "https://github.com/matiasbian/mati.dev",
+	"author": "Matias Bianchi",
 	"license": "MIT",
 	"packageManager": "yarn@3.2.0",
 	"prettier": {

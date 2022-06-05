@@ -9,10 +9,10 @@ module.exports = {
 	exclude: ['/server-sitemap.xml'],
 	generateRobotsTxt: true,
 	robotsTxtOptions: {
-		additionalSitemaps: [
-			`${protocol}://${domain}/sitemap.xml`,
-			`${protocol}://${domain}/server-sitemap.xml`,
-		],
+		//additionalSitemaps: [
+		//	`${protocol}://${domain}/sitemap.xml`,
+		//	`${protocol}://${domain}/server-sitemap.xml`,
+		//],
 	},
-	siteUrl: `${protocol}://${domain}`,
+	//siteUrl: `${protocol}://${domain}`,
 };
