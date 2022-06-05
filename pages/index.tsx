@@ -100,7 +100,7 @@ export default function HomePage() {
 				<Content>
 					<Transition duration={1000} enabled={animations}>
 						<Title>
-							<Wave>👋</Wave> I&apos;m Matías, <LineBreak />a{' '}
+							<Wave>🎮</Wave> I&apos;m Matías, <LineBreak />a{' '}
 							<StyledPill>game developer</StyledPill>
 						</Title>
 					</Transition>
