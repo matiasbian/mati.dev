@@ -49,7 +49,7 @@ So, the idea of paying for another service, however nice a lot of them look, is 
 
 ---
 
-If you'd rather just look at the final code to see how it works, go check the [`projects.ts`](https://github.com/nurodev/nuro.dev/blob/667b055043b94d894172085fee794c3849a3f25f/lib/projects.ts) file in my websites GitHub repository.
+If you'd rather just look at the final code to see how it works, go check the [`projects.ts`](https://github.com/nurodev/mati-dev.com.ar/blob/667b055043b94d894172085fee794c3849a3f25f/lib/projects.ts) file in my websites GitHub repository.
 
 The short version of how it works is this: Using [topics on GitHub](https://github.com/topics) you can filter what content you do & don't want to show. In my case I have given all my chosen repositories a `portfolio` topic & that will make the repository show up on my portfolio page.
 
