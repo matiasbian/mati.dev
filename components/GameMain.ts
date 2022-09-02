@@ -7,13 +7,16 @@ export default class Main extends Phaser.Scene {
     }
 
     create() {
-        this.cameras.main.setBounds(0, 0, 800, 200);
+        var xOffset = 1200;
+        this.cameras.main.setBounds(0, 0, xOffset, 100, true);
 
-        this.add.image(0, 0, 'map').setOrigin(0).setScrollFactor(1).setScale(0.2);
+        this.add.image(0, 0, 'map').setOrigin(0).setScrollFactor(1).setScale(0.2, 0.22);
+        this.physics.world.setBounds(0, 0, xOffset, 240, true, true, true, true);
 
         this.cursors = this.input.keyboard.createCursorKeys();
 
         this.ship = this.physics.add.image(50, 120, 'ship').setCollideWorldBounds(true);
+
         // ship = this.add.image(400.5, 301.3, 'ship');
 
         this.cameras.main.startFollow(this.ship, true, 0.09, 0.09);

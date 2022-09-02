@@ -19,12 +19,10 @@ export default function Index() {
             pixelArt: true,
             // width: window.innerWidth * window.devicePixelRatio,
             // height: window.innerHeight * window.devicePixelRatio,
-            backgroundColor: '#4eb3e7',
             physics: {
                 default: 'arcade',
             },
             parent: 'game',
-
             scale: {
                 mode: Phaser.Scale.FIT,
                 autoCenter: Phaser.Scale.CENTER_BOTH,

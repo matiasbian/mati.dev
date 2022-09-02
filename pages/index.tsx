@@ -23,9 +23,9 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/matiasbian',
-		icon: <Icon className="mr-3" icon="feather:github" />,
-		text: 'GitHub',
+		href: 'https://www.linkedin.com/in/matiasbian/',
+		icon: <Icon className="mr-3" icon="feather:linkedin" />,
+		text: 'LinkedIn',
 	},
 ];
 

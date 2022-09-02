@@ -30,8 +30,14 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
-			text: 'Timeline',
+			text: 'Classic Timeline',
 			href: '/timeline',
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:monitor',
+			text: 'Play My Timeline',
+			href: '/playabletimeline',
 		}
 	],
 	[
@@ -44,9 +50,9 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:instagram',
-			text: 'Instagram',
-			href: 'https://www.instagram.com/mati.bian/',
+			icon: 'feather:linkedin',
+			text: 'LinkedIn',
+			href: 'https://www.linkedin.com/in/matiasbian/',
 			external: true,
 		},
 		{
