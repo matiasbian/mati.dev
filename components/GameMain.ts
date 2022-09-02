@@ -1,6 +1,10 @@
 import 'phaser';
 
 export default class Main extends Phaser.Scene {
+    cursors: Phaser.Types.Input.Keyboard.CursorKeys;
+    ship: Phaser.Types.Physics.Arcade.ImageWithDynamicBody;
+
+
     preload() {
         this.load.image('map', 'assets/timeline.png');
         this.load.image('ship', 'assets/fmship.png');
