@@ -27,9 +27,12 @@ export default class Main extends Phaser.Scene {
         // this.cameras.main.roundPixels = true;
 
         this.cameras.main.setZoom(4);
+
+
     }
 
     updateDirect() {
+
         if (this.cursors.left.isDown) {
             this.ship.setAngle(-90);
             this.ship.x -= 2.5;
@@ -47,10 +50,16 @@ export default class Main extends Phaser.Scene {
             this.ship.setAngle(-180);
             this.ship.y += 2.5;
         }
+
+        this.ship.body.touching
     }
 
     update() {
         this.ship.setVelocity(0);
+        if (this.input.activePointer.isDown) {
+            this.detectTouch(this.input.activePointer);
+        }
+
 
         if (this.cursors.left.isDown) {
             this.ship.setAngle(-90).setVelocityX(-200);
@@ -64,6 +73,16 @@ export default class Main extends Phaser.Scene {
         }
         else if (this.cursors.down.isDown) {
             this.ship.setAngle(-180).setVelocityY(200);
+        }
+    }
+    detectTouch(pointer) {
+        console.log(pointer)
+        console.log("pointer x " + pointer.x + " downx " + pointer.downX)
+        console.log(screen.availWidth + " width real " + screen.width)
+        if (pointer.x > screen.width / 2) {
+            this.ship.setAngle(90).setVelocityX(200);
+        } else {
+            this.ship.setAngle(-90).setVelocityX(-200);
         }
     }
 }

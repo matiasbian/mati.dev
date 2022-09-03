@@ -21,7 +21,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 	return (
 		<Layout.Default seo={{ title: 'Matías ─ timeline' }}>
 			<div className="flex flex-grow min-h-screen" style={{ alignSelf: 'center' }}>
-				<div className='game-container' style={{ width: '100%', height: '100%', zIndex: 9 }}>
+				<div className='game-container' style={{ width: '100vw', height: '100vh', zIndex: 9 }}>
 					<div key={Math.random()} id="game"></div>
 					{loading ? <DynamicComponentWithNoSSR /> : null}
 				</div>

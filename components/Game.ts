@@ -14,18 +14,16 @@ export default function Index() {
 
         var config = {
             type: Phaser.AUTO,
-            width: window.innerWidth,
-            height: window.innerHeight,
+            width: 1400,
+            height: 1200,
             pixelArt: true,
-            // width: window.innerWidth * window.devicePixelRatio,
-            // height: window.innerHeight * window.devicePixelRatio,
             physics: {
                 default: 'arcade',
             },
             parent: 'game',
             scale: {
-                mode: Phaser.Scale.FIT,
-                autoCenter: Phaser.Scale.CENTER_BOTH,
+                mode: Phaser.Scale.WIDTH_CONTROLS_HEIGHT,
+                autoCenter: Phaser.Scale.CENTER_BOTH
             },
         };
 
@@ -33,6 +31,7 @@ export default function Index() {
 
         game.scene.add('main', Main);
         game.scene.start('main');
+
     };
 
     return null;
