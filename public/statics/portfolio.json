@@ -1,5 +1,14 @@
 [
     {
+        "name": "Apex",
+        "description": "WebGL NFT Game in which i've been working since it inception, developing mechanics and multiplayer features",
+        "icon": "🥷",
+        "homepage": "https://apex-webapp-git-apex-162-frontend-tweaks-clients-fffe6a-apexinc.vercel.app/",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
         "name": "Beat Arena",
         "description": "Mobile game that I've working on from scratch. Combines rhythmic mechanics, lootboxes, inventory, and progression systems of today's best-known mobile games",
         "icon": "🎵",

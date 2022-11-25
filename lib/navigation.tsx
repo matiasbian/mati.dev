@@ -30,15 +30,15 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
-			text: 'Classic Timeline',
+			text: 'Timeline',
 			href: '/timeline',
-		},
+		}/*,
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:monitor',
 			text: 'Play My Timeline',
 			href: '/playabletimeline',
-		}
+		}*/
 	],
 	[
 		{
