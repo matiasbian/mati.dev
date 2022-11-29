@@ -1,29 +1,34 @@
 import { Layout } from '~/layouts';
 
 import type { Timeline, TimelineEvent } from '~/types';
-import { useState, useEffect } from 'react';
+import React from "react";
 import dynamic from 'next/dynamic'
+import { Unity, useUnityContext } from "react-unity-webgl";
 
 const DynamicComponentWithNoSSR = dynamic(
 	() => import('components/Game'),
 	{ ssr: false }
 )
 
+
 interface TimelineProps {
 	timeline?: Timeline;
 }
 export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
-	const [loading, setLoading] = useState(false);
+	const { unityProvider } = useUnityContext({
+		loaderUrl: "unitybuild/build.loader.js",
+		dataUrl: "unitybuild/build.data",
+		frameworkUrl: "unitybuild/build.framework.js",
+		codeUrl: "unitybuild/build.wasm"
+	});
 
-	useEffect(() => {
-		setLoading(true)
-	}, []);
+
 	return (
 		<Layout.Default seo={{ title: 'Matías ─ timeline' }}>
 			<div className="flex flex-grow min-h-screen" style={{ alignSelf: 'center' }}>
 				<div className='game-container' style={{ width: '100vw', height: '100vh', zIndex: 9 }}>
-					<div key={Math.random()} id="game"></div>
-					{loading ? <DynamicComponentWithNoSSR /> : null}
+					<Unity unityProvider={unityProvider}
+						style={{ width: 1280, height: 720 }} />;
 				</div>
 			</div>
 		</Layout.Default>

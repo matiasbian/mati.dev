@@ -32,13 +32,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			icon: 'feather:clock',
 			text: 'Timeline',
 			href: '/timeline',
-		}/*,
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:monitor',
 			text: 'Play My Timeline',
 			href: '/playabletimeline',
-		}*/
+		}
 	],
 	[
 		{
