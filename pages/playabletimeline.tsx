@@ -26,7 +26,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 	return (
 		<Layout.Default seo={{ title: 'Matías ─ timeline' }}>
 			<div className="flex flex-grow min-h-screen" style={{ alignSelf: 'center' }}>
-				<div className='game-container' style={{ width: '100vw', height: '100vh', zIndex: 9 }}>
+				<div className='game-container' style={{ margin: "auto", padding: 20, zIndex: 9 }}>
 					<Unity unityProvider={unityProvider}
 						style={{ width: 1280, height: 720 }} />;
 				</div>
