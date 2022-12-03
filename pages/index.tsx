@@ -10,15 +10,15 @@ import type { NavigationItem } from '~/types';
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
-		icon: <Icon className="mr-3" icon="feather:globe" />,
-		text: 'Web Applications',
-	},
-	{
-		type: NavigationItemType.LINK,
 		href: '/games',
 		icon: <Icon className="mr-3" icon="feather:dribbble" />,
 		text: 'Games',
+	},
+	{
+		type: NavigationItemType.LINK,
+		href: '/playabletimeline',
+		icon: <Icon className="mr-3" icon="feather:play" />,
+		text: 'Play my timeline',
 	},
 	{
 		type: NavigationItemType.LINK,
