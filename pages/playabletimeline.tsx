@@ -18,26 +18,6 @@ interface TimelineProps {
 	timeline?: Timeline;
 }
 export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
-	const router = useRouter()
-
-	useEffect(() => {
-		if (true) {
-			const routeChangeStart = () => {
-				unload();
-				setTimeout(() => {
-
-				}, 3000);
-				throw "Abort route change. Please ignore this error."
-
-			}
-			router.events.on("routeChangeStart", routeChangeStart)
-
-			return () => {
-				router.events.off("routeChangeStart", routeChangeStart)
-			}
-		}
-	}, [])
-
 
 	const { unityProvider, unload } = useUnityContext({
 		loaderUrl: "unitybuild/build.loader.js",
@@ -51,7 +31,6 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 		console.log('unloading');
 		await unload();
 		console.log('unloaded');
-		// Ready to navigate to another page.
 	}
 
 
