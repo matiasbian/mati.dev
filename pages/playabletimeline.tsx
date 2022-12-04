@@ -26,22 +26,56 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 		codeUrl: "unitybuild/build.wasm"
 	});
 
+	const router = useRouter()
+	var firstGoOut = false;
+
 
 	async function handleClickBack() {
 		console.log('unloading');
 		await unload();
 		console.log('unloaded');
+		firstGoOut = true
+		router.push(document.getElementById("but-but").innerText)
 	}
 
+	// Assume this value holds the status of your form
+	const [dirty, setDirty] = React.useState();
+
+	// We need to ref to it then we can access to it properly in callback properly
+	const ref = React.useRef(dirty);
+	ref.current = dirty;
+
+
+
+	useEffect(() => {
+		// We listen to this event to determine whether to redirect or not
+		router.events.on("routeChangeStart", handleRouteChange);
+
+		return () => {
+			router.events.off("routeChangeStart", handleRouteChange);
+		};
+	}, []);
+
+	function handleRouteChange(url) {
+		console.log("App is changing to: ", url, ref.current);
+
+		if (!firstGoOut) {
+			document.getElementById("but-but").innerText = url
+			document.getElementById("but-but").click()
+			router.events.emit('routeChangeError')
+			firstGoOut = true
+			throw `routeChange aborted. This error can be safely ignored - https://github.com/zeit/next.js/issues/2476.`
+		}
+	};
 
 
 	return (
 		<Layout.Default seo={{ title: 'Matías ─ timeline' }}>
-			<div className="flex flex-grow min-h-screen" style={{ alignSelf: 'center' }}>
-				<div className='game-container' style={{ margin: "auto", padding: 20, zIndex: 9 }}>
+			<div className="flex flex-grow min-h-screen" style={{ alignSelf: 'center', alignItems: 'center' }}>
+				<div className='game-container' style={{ height: 'calc(100vh - 64px)', width: '80vw', margin: '0px', padding: '0px', border: '0px', zIndex: '999' }}>
 					<Unity unityProvider={unityProvider}
-						style={{ width: 1280, height: 720 }} />;
-					<button onClick={handleClickBack}>Back</button>
+						style={{ width: '100%', height: '100%' }} />
+					<button hidden id="but-but" onClick={handleClickBack}>Back</button>
 				</div>
 			</div>
 		</Layout.Default>
