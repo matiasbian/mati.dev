@@ -1,9 +1,11 @@
 {
     "thanks": {
+        "enabled": true,
         "title": "To be continued...",
         "description": "Thanks for visiting my portfolio. \nI hope you like it!"
     },
     "globant": {
+        "enabled": false,
         "title": "Game Developer",
         "company": "Globant",
         "url": "https://www.globant.com/",
@@ -11,6 +13,7 @@
         "period": "January 2023 - Present"
     },
     "ratherlabs": {
+        "enabled": true,
         "title": "Game Developer",
         "company": "Rather Labs",
         "url": "https://www.ratherlabs.com/",
@@ -18,6 +21,7 @@
         "period": "October 2022 - January 2023"
     },
     "agonalea": {
+        "enabled": true,
         "title": "Lead Game Dev",
         "company": "Agonalea Games",
         "url": "https://agonaleagames.com/",
@@ -25,6 +29,7 @@
         "period": "August 2020 - November 2022"
     },
     "cloodie": {
+        "enabled": true,
         "title": "Full-stack Web Developer",
         "company": "Cloodie",
         "url": "https://cloodie.com/",
@@ -32,6 +37,7 @@
         "period": "July 2019 - March 2021"
     },
     "delivergames": {
+        "enabled": true,
         "title": "Indie game dev",
         "company": "Deliver Games",
         "description": "My first experience as a game dev.\nIn this company, I Developed mobile games for small clients with Unity and Godot, some games has been published in Google Playstore and itch.io",
