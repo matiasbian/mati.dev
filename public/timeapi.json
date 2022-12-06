@@ -17,7 +17,7 @@
         "title": "Game Developer",
         "company": "Rather Labs",
         "url": "https://www.ratherlabs.com/",
-        "description": "Involved on all stages of the Apex Development Cycle, developing mechanics and multiplayer features for an NFT based game",
+        "description": "Developed main fighting mechanics, including AI and multiplayer features for Apex, an Unity NFT based game",
         "period": "October 2022 - January 2023"
     },
     "agonalea": {
@@ -25,7 +25,7 @@
         "title": "Lead Game Dev",
         "company": "Agonalea Games",
         "url": "https://agonaleagames.com/",
-        "description": "Involved on all stages of Beat Arena's Development cycle. One of the selected games for the Indie Games Fund by Google.\nI Participated in designing and planning Beat Arena’s roadmap and sprints with the production team, aswell I Developed the main features.",
+        "description": "Involved on all stages of Beat Arena's Development cycle. One of the selected games for the Indie Games Fund by Google.\nI  led a team of 3 devs in the development of the main game features.",
         "period": "August 2020 - November 2022"
     },
     "cloodie": {
@@ -33,7 +33,7 @@
         "title": "Full-stack Web Developer",
         "company": "Cloodie",
         "url": "https://cloodie.com/",
-        "description": "Medicine software company where I participated in the designing and implementation of a microservices structure for a telemedicine application with Node.Js, aswell developing frontend modules with Vue.js",
+        "description": "Medicine software company where I participated in the designing and implementation of a microservices structure for a telemedicine application. Using Node.Js, for backend and Vue.Js for frontend modules.",
         "period": "July 2019 - March 2021"
     },
     "delivergames": {
