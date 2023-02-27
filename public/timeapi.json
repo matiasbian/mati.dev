@@ -5,27 +5,27 @@
         "description": "Thanks for visiting my portfolio. \nI hope you like it!"
     },
     "globant": {
-        "enabled": false,
+        "enabled": true,
         "title": "Game Developer",
         "company": "Globant",
         "url": "https://www.globant.com/",
-        "description": "",
+        "description": "I've been working in a AAA since January. I can't give much information about this game because of the NDA, but I'm sure you played it.",
         "period": "January 2023 - Present"
     },
     "ratherlabs": {
         "enabled": true,
-        "title": "Game Developer",
+        "title": "Lead Game Dev",
         "company": "Rather Labs",
         "url": "https://www.ratherlabs.com/",
-        "description": "Developed main fighting mechanics, including AI and multiplayer features for Apex, an Unity NFT based game",
-        "period": "October 2022 - January 2023"
+        "description": "Involved on all stages of an NFT fighting game, including core mechanics, AI and multiplayer features.",
+        "period": "October 2022 - February 2023"
     },
     "agonalea": {
         "enabled": true,
         "title": "Lead Game Dev",
         "company": "Agonalea Games",
         "url": "https://agonaleagames.com/",
-        "description": "Involved on all stages of Beat Arena's Development cycle. One of the selected games for the Indie Games Fund by Google.\nI  led a team of 3 devs in the development of the main game features.",
+        "description": "Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program.",
         "period": "August 2020 - November 2022"
     },
     "cloodie": {
@@ -33,7 +33,7 @@
         "title": "Full-stack Web Developer",
         "company": "Cloodie",
         "url": "https://cloodie.com/",
-        "description": "Medicine software company where I participated in the designing and implementation of a microservices structure for a telemedicine application. Using Node.Js, for backend and Vue.Js for frontend modules.",
+        "description": "Developed microservices with Node.Js, and front-end modules with Vue.Js for a telemedicine web app.",
         "period": "July 2019 - March 2021"
     },
     "delivergames": {
