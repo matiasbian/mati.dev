@@ -9,7 +9,7 @@
         "title": "Game Developer",
         "company": "Globant",
         "url": "https://www.globant.com/",
-        "description": "I've been working in a AAA since January. I can't give much information about this game because of the NDA, but I'm sure you played it.",
+        "description": "I'm part of a 'AAA' game dev team since January. I can't give much information about this game because of the NDA, but I'm sure you played it.",
         "period": "January 2023 - Present"
     },
     "ratherlabs": {
@@ -17,7 +17,7 @@
         "title": "Lead Game Dev",
         "company": "Rather Labs",
         "url": "https://www.ratherlabs.com/",
-        "description": "Involved on all stages of an NFT fighting game, including core mechanics, AI and multiplayer features.",
+        "description": "Developed an NFT WebGL fighting game, including core gameplay mechanics, AI, characters creator engine, and multiplayer features.",
         "period": "October 2022 - February 2023"
     },
     "agonalea": {
@@ -25,7 +25,7 @@
         "title": "Lead Game Dev",
         "company": "Agonalea Games",
         "url": "https://agonaleagames.com/",
-        "description": "Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program.",
+        "description": "Led a team of devs in the development of Rhythm Realms an Android & iOS game. Developed core gameplay mechanics, aswell I implemented some critical features like inventory, lootboxes, exp system and cloud saving system. Rhythm Reals is one of the selected games by Google Play Games Fund program.",
         "period": "August 2020 - November 2022"
     },
     "cloodie": {
