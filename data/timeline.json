@@ -2,7 +2,7 @@
 	{
 		"date": "10-18-2022",
 		"title": "Lead game dev at Rather Labs",
-		"description": "Involved on all stages of the Apex Development Cycle, developing mechanics and multiplayer features for an NFT based game",
+		"description": "Involved on all stages of an NFT fighting game, including core mechanics and multiplayer features.",
 		"icon": "feather:award",
 		"link": {
 			"text": "Visit Rather Labs",
@@ -12,7 +12,7 @@
 	{
 		"date": "08-10-2020",
 		"title": "Lead game dev at Agonalea Games",
-		"description": "Involved on all stages of Beat Arena's Development cycle.  One of the selected games for the Indie Games Fund by Google",
+		"description": "Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Agonalea Games",
@@ -22,7 +22,7 @@
 	{
 		"date": "11-04-2018",
 		"title": "Full-stack dev at Cloodie",
-		"description": "Medicine software company where I participated in the designing and implementation of a microservices structure for an telemedicine application with Node.Js, aswell developing modules with Vue.js",
+		"description": "Developed microservices with Node.Js, and front-end modules with Vue.Js for a telemedicine web app.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Cloodie",
@@ -38,7 +38,7 @@
 	{
 		"date": "01-10-2016",
 		"title": "Game dev at Deliver Games",
-		"description": "Indie game dev studio where I Developed mobile games with Unity and Godot, some of them published in the playstore and itch.io",
+		"description": "Developed mobile games for small clients  with Unity and Godot, some of them published in the playstore and itch.io",
 		"icon": "feather:book"
 	},
 	{
