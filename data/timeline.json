@@ -1,8 +1,8 @@
 [
 	{
 		"date": "10-18-2022",
-		"title": "Lead game dev at Rather Labs",
-		"description": "Involved on all stages of an NFT fighting game, including core mechanics and multiplayer features.",
+		"title": "Main game dev at Rather Labs",
+		"description": "Created core fighting, multiplayer, AI, and characters creation features.",
 		"icon": "feather:award",
 		"link": {
 			"text": "Visit Rather Labs",
@@ -22,7 +22,7 @@
 	{
 		"date": "11-04-2018",
 		"title": "Full-stack dev at Cloodie",
-		"description": "Developed microservices with Node.Js, and front-end modules with Vue.Js for a telemedicine web app.",
+		"description": "Developed microservices with Node.Js, front-end modules with Vue.Js for a telemedicine web app.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Cloodie",

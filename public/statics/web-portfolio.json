@@ -1,7 +1,7 @@
 [
     {
         "name": "Cloodie - Quralo Health Information System",
-        "description": "I was part of the Cloodie's team that developed this web application for health centers. I worked as a fullstack developer, creating microservices on the backend, and some frontend pages",
+        "description": "I was part of the Cloodie's team that developed this web app for health centers. I worked as a fullstack developer, creating microservices with Node.Js, and some frontend pages with Vue.Js",
         "icon": "👨‍⚕️",
         "homepage": "https://www.quralo.com/",
         "post": "",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Cloodie - Cloodie HIS",
-        "description": "I Developed some features for this HIS.",
+        "description": "Created modules for a HIS with PHP.",
         "icon": "👩‍⚕️",
         "homepage": "https://es.cloodie.com/products/his/",
         "post": "",

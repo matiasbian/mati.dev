@@ -35,7 +35,7 @@ export default function HomePage() {
 	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const description = `I am a ${age} year old game (and web) developer`;
+	const description = `I am a ${age} year old game developer`;
 
 	return (
 		<Layout.Default>
@@ -52,7 +52,7 @@ export default function HomePage() {
 					>
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Matías, <br className="hidden sm:block" />a{' '}
-						<Pill.Standard className="mt-4">game developer</Pill.Standard>
+						<Pill.Standard className="mt-4">game dev.</Pill.Standard>
 					</Animate>
 
 					<Animate

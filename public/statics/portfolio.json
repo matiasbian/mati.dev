@@ -1,7 +1,7 @@
 [
     {
         "name": "Apex",
-        "description": "WebGL NFT Game in which i've been working since it inception, developing core mechanics and multiplayer features, including AI features",
+        "description": "WebGL NFT Game I developed from scratch, including core mechanics, multiplayer and AI features. I also developed for this game a mini-engine for characters creation.",
         "icon": "🥷",
         "homepage": "https://app.0xmen.game/",
         "post": "",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Rhythm Realms",
-        "description": "I Led a team in the development of this game. Developed rhythmic mechanics, lootboxes, inventory, and progression features.",
+        "description": "I Led the Rhythm Realms development team for 2 years. I created core rhythmic mechanics, lootboxes, inventory, and progression features.",
         "icon": "🎵",
         "homepage": "https://agonaleagames.com/",
         "post": "",
