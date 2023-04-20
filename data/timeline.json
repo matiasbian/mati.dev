@@ -1,5 +1,15 @@
 [
 	{
+		"date": "01-01-2023",
+		"title": "Game Dev at Globant",
+		"description": "Game developer for a AAA famous yearly sports game by an North American company.",
+		"icon": "feather:award",
+		"link": {
+			"text": "Visit Globant",
+			"url": "https://www.globant.com/"
+		}
+	},
+	{
 		"date": "10-18-2022",
 		"title": "Main game dev at Rather Labs",
 		"description": "Created core fighting, multiplayer, AI, and characters creation features.",
