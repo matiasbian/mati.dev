@@ -15,6 +15,7 @@ const ACTIONS: Array<NavigationItem> = [
 		href: '/games',
 		icon: <Icon className="mr-3" icon="feather:dribbble" />,
 		text: 'Games',
+		highlight: isMobile,
 	},
 	{
 		type: NavigationItemType.LINK,
@@ -35,8 +36,6 @@ const ACTIONS: Array<NavigationItem> = [
 // remove play timeline option if you are playing in a device.
 if (isMobile) {
 	var fst = ACTIONS[0]
-	fst.highlight = true
-
 	ACTIONS[1] = fst
 
 	ACTIONS[0] = {
