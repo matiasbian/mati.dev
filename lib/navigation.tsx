@@ -7,6 +7,8 @@ import { NavigationItemType, Theme } from '~/types';
 
 import type { NavigationItem, NavigationItems } from '~/types';
 
+import { isMobile } from 'react-device-detect';
+
 const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
@@ -64,6 +66,11 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 	],
 ];
+
+// remove play timeline option if you are playing in a device.
+if (isMobile) {
+	staticMenuItems[0].pop()
+}
 
 export function useNavigation() {
 	const state = usePersistantState();

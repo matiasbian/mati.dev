@@ -1,8 +1,14 @@
 [
 	{
+		"date": "12-06-2023",
+		"title": "Graduated!",
+		"description": "I graduated with a Bachelor degree in software development at the National University of Quilmes.",
+		"icon": "feather:book"
+	},
+	{
 		"date": "01-01-2023",
-		"title": "Game Dev at Electronic Arts (Through Globant)",
-		"description": "I've been working in one of the most popular game dev companies since January 2023 in Madden NFL, one of the most popular sport game of all time.",
+		"title": "Game Dev at Electronic Arts",
+		"description": "I've been working in one of the most popular game dev companies since January 2023 developing Madden NFL, one of the most popular sport game of all time.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Madden NFL",
@@ -22,7 +28,7 @@
 	{
 		"date": "08-10-2020",
 		"title": "Lead game dev at Agonalea Games",
-		"description": "My first professional experience as a Game Dev. After a year working in this company, I Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program",
+		"description": "My first professional experience as a Game Dev. I Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Agonalea Games",
@@ -48,7 +54,7 @@
 	{
 		"date": "01-10-2016",
 		"title": "Game dev at Deliver Games",
-		"description": "My first indie game dev experience. I worked with college buddies in this company. We developed mobile games for small clients.",
+		"description": "My first indie game dev experience. Developed mobile games for small clients.",
 		"icon": "feather:book"
 	},
 	{

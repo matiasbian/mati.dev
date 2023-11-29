@@ -7,6 +7,8 @@ import { Layout } from '~/layouts';
 
 import type { NavigationItem } from '~/types';
 
+import { isMobile } from 'react-device-detect';
+
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
@@ -19,6 +21,7 @@ const ACTIONS: Array<NavigationItem> = [
 		href: '/playabletimeline',
 		icon: <Icon className="mr-3" icon="feather:play" />,
 		text: 'Play my timeline',
+		highlight: true,
 	},
 	{
 		type: NavigationItemType.LINK,
@@ -28,6 +31,16 @@ const ACTIONS: Array<NavigationItem> = [
 		text: 'LinkedIn',
 	},
 ];
+
+// remove play timeline option if you are playing in a device.
+if (isMobile) {
+	ACTIONS[1] = {
+		type: NavigationItemType.LINK,
+		href: '/playabletimeline',
+		icon: <Icon className="mr-3" icon="feather:globe" />,
+		text: 'Web Apps',
+	}
+}
 
 export default function HomePage() {
 	const today = new Date();
@@ -48,11 +61,11 @@ export default function HomePage() {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
+						className="text-whitetext-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
 					>
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Matías, <br className="hidden sm:block" />a{' '}
 						<Pill.Standard className="mt-4">game dev.</Pill.Standard>
+						<span className="inline-block origin-70 hover:(animate-wave)">🎮</span>{' '}
 					</Animate>
 
 					<Animate
@@ -85,7 +98,7 @@ export default function HomePage() {
 										delay: 0.1 * (index + 2) + 0.5,
 									}}
 								>
-									<Button.Outline href={action.href}>
+									<Button.Outline href={action.href} highlight={action.highlight}>
 										{action.icon}
 										<span>{action.text}</span>
 									</Button.Outline>

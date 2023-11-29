@@ -6,6 +6,7 @@ interface NaviationItemBase {
 	text: string;
 	onClick?: () => void;
 	href?: string;
+	highlight?: boolean;
 }
 
 export enum NavigationItemType {
@@ -16,14 +17,14 @@ export enum NavigationItemType {
 
 export type NavigationItem =
 	| ({
-			type: NavigationItemType.ACTION;
-	  } & Omit<NaviationItemBase, 'href'>)
+		type: NavigationItemType.ACTION;
+	} & Omit<NaviationItemBase, 'href'>)
 	| {
-			type: NavigationItemType.DIVIDER;
-	  }
+		type: NavigationItemType.DIVIDER;
+	}
 	| ({
-			external?: boolean;
-			type: NavigationItemType.LINK;
-	  } & NaviationItemBase);
+		external?: boolean;
+		type: NavigationItemType.LINK;
+	} & NaviationItemBase);
 
 export type NavigationItems = Array<Array<NavigationItem>>;
