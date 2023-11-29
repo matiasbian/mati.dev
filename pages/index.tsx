@@ -34,11 +34,17 @@ const ACTIONS: Array<NavigationItem> = [
 
 // remove play timeline option if you are playing in a device.
 if (isMobile) {
-	ACTIONS[1] = {
+	var fst = ACTIONS[0]
+	fst.highlight = true
+
+	ACTIONS[1] = fst
+
+	ACTIONS[0] = {
 		type: NavigationItemType.LINK,
 		href: '/playabletimeline',
 		icon: <Icon className="mr-3" icon="feather:globe" />,
 		text: 'Web Apps',
+		highlight: false,
 	}
 }
 
