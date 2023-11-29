@@ -9,7 +9,7 @@
         "title": "Game Developer",
         "company": "Electronic Arts",
         "url": "https://www.ea.com/es-es",
-        "description": "I'm part of Electronic Arts (Through Globant) since January. I'm working in Madden NFL 24. I can't give much information about this game because of the NDA.",
+        "description": "I've been working on Madden NFL as a UI Game developer since January 2023. Implemented entire feature screens that are used by millions of players",
         "period": "January 2023 - Present"
     },
     "ratherlabs": {
@@ -25,7 +25,7 @@
         "title": "Lead Game Dev",
         "company": "Agonalea Games",
         "url": "https://agonaleagames.com/",
-        "description": "Developed core gameplay mechanics, aswell I implemented high impact features like inventory, lootboxes, exp.  and cloud saving system. Rhythm Realms is one of the selected games by Google Play Games Fund program.",
+        "description": "Led Rythm Realms team, a Google Indie Games Fund Award winning game team for 2 years. Created core rhythmic mechanics, lootboxes, inventory and season pass features.",
         "period": "August 2020 - November 2022"
     },
     "cloodie": {
@@ -33,14 +33,14 @@
         "title": "Full-stack Web Developer",
         "company": "Cloodie",
         "url": "https://cloodie.com/",
-        "description": "Developed microservices with Node.Js, and front-end modules with Vue.Js for a telemedicine web app.",
+        "description": "Full-stack first professional experience. Developed microservices with Node.Js, and front-end modules with Vue.Js for a telemedicine web app.",
         "period": "July 2019 - March 2021"
     },
     "delivergames": {
         "enabled": true,
         "title": "Indie game dev",
         "company": "Deliver Games",
-        "description": "My first experience as a game dev.\nIn this company, I Developed mobile games for small clients with Unity and Godot, some games has been published in Google Playstore and itch.io",
+        "description": "My first experience as a game dev.\nDeveloped mobile games for small clients with Unity and Godot, some games has been published in Google Playstore and itch.io",
         "url": "https://www.linkedin.com/company/11412907",
         "period": "January 2017- June 2019"
     }

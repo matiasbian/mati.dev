@@ -1,7 +1,7 @@
 [
     {
-        "name": "Madden NFL 24",
-        "description": "Electronic Arts' AAA sport game where i've been working as a Game UI developer.",
+        "name": "Madden NFL - Electronic Arts",
+        "description": "I've been working on this game as a UI Game developer since January 2023. Implemented entire feature screens that are used by millions of players",
         "icon": "🏈",
         "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
         "post": "",
@@ -9,17 +9,17 @@
         "highlighted": true
     },
     {
-        "name": "Apex",
-        "description": "WebGL NFT Game I developed from scratch, including core mechanics, multiplayer and AI features. I also developed for this game a mini-engine for characters creation.",
-        "icon": "🥷",
+        "name": "0xMen - Rather Labs",
+        "description": "WebGL NFT Game I developed from scratch, including core gameplay mechanics, multiplayer and AI features. Created an engine for characters creating automation.",
+        "icon": "🐱‍👤",
         "homepage": "https://app.0xmen.game/",
         "post": "",
         "url": "",
         "highlighted": true
     },
     {
-        "name": "Rhythm Realms",
-        "description": "I Led the Rhythm Realms development team for 2 years. I created core rhythmic mechanics, lootboxes, inventory, and progression features.",
+        "name": "Rhythm Realms - Agonalea Games",
+        "description": "I Led the \"Google Indie Games Fund Award\" winning game team for 2 years. Created core rhythmic mechanics, lootboxes, inventory and season pass features.",
         "icon": "🎵",
         "homepage": "https://agonaleagames.com/",
         "post": "",
@@ -29,24 +29,7 @@
         "highlighted": true
     },
     {
-        "name": "Argentina Pelea - Debate Mortal",
-        "description": "A parody game of Argentine politicians. Developed with Unity3D. For copyright reasons, it was removed from the playstore, but it can still be downloaded by other stores",
-        "icon": "👊",
-        "homepage": "https://www.clarin.com/tecnologia/eleccion-presidencial-llego-celulares-argentina-pelea-debate-mortal-juego-pone-pelear-politicos_0_EljclEng.html",
-        "post": "",
-        "url": "",
-        "playstore": "https://apkcombo.com/es/argentina-pelea-debate-mortal/com.APTeam.ArgentinaPelea/"
-    },
-    {
-        "name": "Eggszy",
-        "description": "Android Game developed in 2017 with Unity3D. I remastered this game in 2020, adding to it some cool features, like a skins system, ads, in app purchases",
-        "icon": "🥚",
-        "post": "",
-        "url": "",
-        "playstore": "https://play.google.com/store/apps/details?id=com.DeliverGamesMB.Eggszy2"
-    },
-    {
-        "name": "Jumping Hamster",
+        "name": "Jumping Hamster - Deliver Games",
         "description": "A Doodle Jump-like Game, for PC Windows and Linux. Developed in Godot 3 in 2018.",
         "icon": "🐹",
         "post": "",
@@ -55,19 +38,20 @@
         "playstore": ""
     },
     {
-        "name": "UFO Adventures - Tap to Win",
-        "description": "A Simple Flappy Bird-Like game. Developed in 2 days with Unity3D. For copyright reasons, it was removed from the playstore, but it can still be downloaded in other stores",
-        "icon": "🛸",
+        "name": "Argentina Pelea - Debate Mortal - Deliver Games",
+        "description": "A parody game of Argentine politicians. Developed with Unity3D.",
+        "icon": "👊",
+        "homepage": "https://www.clarin.com/tecnologia/eleccion-presidencial-llego-celulares-argentina-pelea-debate-mortal-juego-pone-pelear-politicos_0_EljclEng.html",
         "post": "",
         "url": "",
-        "playstore": "https://apkcombo.com/es/ufo-adventures-tap-to-win/com.DeliverGames.UFOAdventures/"
+        "playstore": "https://apkcombo.com/es/argentina-pelea-debate-mortal/com.APTeam.ArgentinaPelea/"
     },
     {
-        "name": "Pizza Boy",
-        "description": "An Android game developed in 2016 for Deliver Games. We're inspired in retro platform games like Battletoads, Megaman and Sonic. For copyright reasons, it was removed from the playstore, but it can still be downloaded in other stores",
-        "icon": "🍕",
+        "name": "Eggszy - Deliver Games",
+        "description": "Android Game developed in 2017 with Unity3D. I remastered this game in 2020, adding to it some cool features, like a skins system, ads, in app purchases",
+        "icon": "🥚",
         "post": "",
         "url": "",
-        "playstore": "https://apkcombo.com/es/pizza-boy-demo/com.deliver.pizzaboy/"
+        "playstore": "https://play.google.com/store/apps/details?id=com.DeliverGamesMB.Eggszy2"
     }
 ]
