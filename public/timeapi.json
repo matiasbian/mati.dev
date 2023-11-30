@@ -4,6 +4,14 @@
         "title": "To be continued...",
         "description": "Thanks for visiting my portfolio. \nI hope you like it!"
     },
+    "unq": {
+        "enabled": true,
+        "title": "Graduated!",
+        "company": "UNQ",
+        "url": "https://www.unq.edu.ar/",
+        "description": "Graduated with a Bachelor degree in software development at National University of Quilmes.",
+        "period": "March 201g7 - December 2023"
+    },
     "globant": {
         "enabled": true,
         "title": "Game Developer",
