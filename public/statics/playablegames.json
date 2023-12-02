@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Patagonia Racers - Unity",
+        "description": "2D pixel art racing game.",
+        "icon": "🏎️",
+        "homepage": "/patagoniaracers",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
+        "name": "Clash of codes - Godot",
+        "description": "My final university project. It is an educational game to learn to program.",
+        "icon": "🤖",
+        "homepage": "/",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    }
+]
