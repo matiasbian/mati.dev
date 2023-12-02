@@ -64,31 +64,6 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 												} as ListAction,
 											]
 											: []),
-
-
-										...(project.playstore
-											? [
-												{
-													type: ListActionType.LINK,
-													href: project.playstore,
-													icon: 'feather:play',
-													label: `${project.name} homepage`,
-												} as ListAction,
-											]
-											: []),
-
-										...(project.appstore
-											? [
-												{
-													type: ListActionType.LINK,
-													href: project.appstore,
-													icon: 'feather:airplay',
-													label: `${project.name} homepage`,
-												} as ListAction,
-											]
-											: []),
-
-
 										...(project.url
 											? [
 												{
