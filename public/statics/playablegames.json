@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Madden NFL - Electronic Arts",
+        "description": "I've been working on this game as a UI Game developer since January 2023. Implemented entire feature screens that are used by millions of players",
+        "icon": "🏈",
+        "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
+        "name": "0xMen - Rather Labs",
+        "description": "WebGL NFT Game I developed from scratch, including core gameplay mechanics, multiplayer and AI features. Created an engine for characters creating automation.",
+        "icon": "🐱‍👤",
+        "homepage": "https://app.0xmen.game/",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    }
+]
