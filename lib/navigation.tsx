@@ -35,6 +35,14 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Timeline',
 			href: '/timeline',
 		},
+	],
+	[
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:dribbble',
+			text: 'Play My Games',
+			href: '/playablegames',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:monitor',
@@ -43,13 +51,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		}
 	],
 	[
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:facebook',
-			text: 'Facebook',
-			href: 'https://www.facebook.com/matibian/',
-			external: true,
-		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:linkedin',
@@ -69,7 +70,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 
 // remove play timeline option if you are playing in a device.
 if (isMobile) {
-	staticMenuItems[0].pop()
+	staticMenuItems.splice(1, 1); // 2nd parameter means remove one item only
 }
 
 export function useNavigation() {
