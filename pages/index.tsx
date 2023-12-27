@@ -14,7 +14,7 @@ const ACTIONS: Array<NavigationItem> = [
 		type: NavigationItemType.LINK,
 		href: '/games',
 		icon: <Icon className="mr-3" icon="feather:dribbble" />,
-		text: 'Games',
+		text: 'Portfolio',
 		highlight: isMobile,
 	},
 	{
@@ -26,10 +26,10 @@ const ACTIONS: Array<NavigationItem> = [
 	},
 	{
 		type: NavigationItemType.LINK,
-		external: true,
-		href: 'https://www.linkedin.com/in/matiasbian/',
-		icon: <Icon className="mr-3" icon="feather:linkedin" />,
-		text: 'LinkedIn',
+		href: '/playablegames',
+		icon: <Icon className="mr-3" icon="feather:play" />,
+		text: 'Play my web games',
+		highlight: false,
 	},
 ];
 
@@ -44,6 +44,14 @@ if (isMobile) {
 		icon: <Icon className="mr-3" icon="feather:globe" />,
 		text: 'Web Apps',
 		highlight: false,
+	}
+
+	ACTIONS[2] = {
+		type: NavigationItemType.LINK,
+		external: true,
+		href: 'https://www.linkedin.com/in/matiasbian/',
+		icon: <Icon className="mr-3" icon="feather:linkedin" />,
+		text: 'LinkedIn',
 	}
 }
 
