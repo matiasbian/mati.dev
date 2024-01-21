@@ -1,7 +1,7 @@
 [
     {
         "name": "Patagonia Racers - Unity",
-        "description": "2D pixel art racing game.",
+        "description": "2D pixel art racing game in which I implemented pseudo 3D projection algorithms.",
         "icon": "🏎️",
         "homepage": "/patagoniaracers",
         "post": "",
@@ -10,11 +10,11 @@
     },
     {
         "name": "Clash of codes - Godot",
-        "description": "My final university project. It is an educational game to learn to program.",
+        "description": "University graduation project. It is an educational game to learn programming fundamentals.",
         "icon": "🤖",
-        "homepage": "https://matibian.itch.io/clash-of-codes",
+        "homepage": "",
         "post": "",
-        "url": "",
+        "url": "https://matibian.itch.io/clash-of-codes",
         "highlighted": true
     }
 ]

@@ -76,6 +76,10 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 					<Unity unityProvider={unityProvider}
 						style={{ width: '100%', height: '100%' }} />
 					<button hidden id="but-but" onClick={handleClickBack}>Back</button>
+					<div className="game-container game-description" >
+						<p>Controls: Acceleration: <strong>Z</strong> | Brake: <strong>X</strong> | Turbo: <strong>C</strong> | Steering: <strong>Arrow keys</strong> | Gamepad also can be used.</p>
+					</div>
+
 				</div>
 			</div>
 		</Layout.Default>

@@ -58,8 +58,9 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 											? [
 												{
 													type: ListActionType.LINK,
+													external: false,
 													href: project.homepage,
-													icon: 'feather:globe',
+													icon: 'feather:play',
 													label: `${project.name} homepage`,
 												} as ListAction,
 											]
@@ -69,7 +70,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 												{
 													type: ListActionType.LINK,
 													href: project.url,
-													icon: 'feather:github',
+													icon: 'feather:globe',
 													label: `${project.name} homepage`,
 												} as ListAction,
 											]
