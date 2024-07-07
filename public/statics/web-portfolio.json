@@ -1,5 +1,14 @@
 [
     {
+        "name": "Transporte Gioia e Hijos SRL",
+        "description": "I'm part of Dinasoft team that developed this web app for a transport company. I worked as a fronteand lead developer. Tech stack: Vue.Js and Vuetify.",
+        "icon": "🚛",
+        "homepage": "https://dinasoft.tech/",
+        "post": "",
+        "url": "https://logistica-lac.vercel.app/",
+        "highlighted": true
+    },
+    {
         "name": "Cloodie - Quralo Health Information System",
         "description": "I was part of the Cloodie's team that developed this web app for health centers. I worked as a fullstack developer, creating microservices with Node.Js, and some frontend pages with Vue.Js",
         "icon": "👨‍⚕️",
