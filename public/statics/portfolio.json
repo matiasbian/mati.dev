@@ -23,7 +23,7 @@
         "icon": "🐱‍👤",
         "homepage": "https://app.0xmen.game/",
         "post": "",
-        "url": "",
+        "url": ""
     },
     {
         "name": "Rhythm Realms - Agonalea Games",
@@ -43,7 +43,8 @@
         "post": "",
         "homepage": "https://delivergames.itch.io/jumping-hamster",
         "url": "",
-        "playstore": ""
+        "playstore": "",
+        "highlighted": true
     },
     {
         "name": "Argentina Pelea - Debate Mortal - Deliver Games",
