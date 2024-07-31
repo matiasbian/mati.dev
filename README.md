@@ -1,9 +1,5 @@
 <div align="center">
 
-<a target="_blank" href="https://mati-dev.com.ar">
-    <img alt='Website' src="./public/blog/hello_world/screenshot.png" />
-</a>
-
 [![Website](https://img.shields.io/badge/%20%F0%9F%8F%A1%20website-0072ff.svg?longCache=true&style=for-the-badge)](https://mati-dev.com.ar)
 [![License](https://img.shields.io/badge/-mit-red.svg?longCache=true&style=for-the-badge)](https://github.com/tdemapp/website/blob/master/LICENSE)
 [![Website](https://img.shields.io/badge/Deploy-brightgreen.svg?logo=vercel&longCache=true&style=for-the-badge)](https://vercel.com/import/project?template=https://github.com/nurodev/mati-dev.com.ar)
