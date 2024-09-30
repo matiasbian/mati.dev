@@ -1,5 +1,15 @@
 [
 	{
+		"date": "01-05-2024",
+		"title": "Senior game Dev at Scubalight Studios",
+		"description": "I've been working in a multiplayer sandbox game, creating new gameplay features and improving server stability",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit the game site",
+			"url": "https://levelheadedgames.com/"
+		}
+	},
+	{
 		"date": "12-06-2023",
 		"title": "Graduated!",
 		"description": "Graduated with a Bachelor degree in software development at National University of Quilmes.",
