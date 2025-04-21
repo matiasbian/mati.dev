@@ -9,6 +9,14 @@
         "highlighted": true
     },
     {
+        "name": "Agroprimavera",
+        "description": "Frontend redesign, integrations with external notification services, and integration of payment platforms",
+        "icon": "💡",
+        "homepage": "https://agroprimavera.com.ar/",
+        "post": "",
+        "highlighted": false
+    },
+    {
         "name": "Cloodie - Quralo Health Information System",
         "description": "I was part of the Cloodie's team that developed this web app for health centers. I worked as a fullstack developer, creating microservices with Node.Js, and some frontend pages with Vue.Js",
         "icon": "👨‍⚕️",
