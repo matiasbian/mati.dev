@@ -1,5 +1,14 @@
 [
     {
+        "name": "Mu Dinakon",
+        "description": "Developed both frontend and backend (next js) for this web app for a private Mu Online server (Which i'm also currently manteining)",
+        "icon": "⚔︎",
+        "homepage": "https://www.mudinakon.com/",
+        "post": "",
+        "url": "https://www.mudinakon.com/",
+        "highlighted": true
+    },
+    {
         "name": "Transporte Gioia e Hijos SRL",
         "description": "I'm part of Dinasoft team that developed this web app for a transport company. I worked as a fronteand lead developer. Tech stack: Vue.Js and Vuetify.",
         "icon": "🚛",
