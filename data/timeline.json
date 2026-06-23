@@ -2,7 +2,7 @@
 	{
 		"date": "01-05-2024",
 		"title": "Senior Game Dev at Scubalight Studios",
-		"description": "I've been working on a multiplayer sandbox game, creating new gameplay features and improving server stability",
+		"description": "Part of an 11-person team building a multiplayer sandbox game. Led the server architecture migration from a monolith to microservices — each game session now runs as an independent service — and engineered the enemy AI systems.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit the game site",
@@ -18,7 +18,7 @@
 	{
 		"date": "01-01-2023",
 		"title": "Game Dev at Electronic Arts",
-		"description": "I've been working at one of the most popular game dev companies since January 2023, developing Madden NFL, one of the most popular sports games of all time.",
+		"description": "Owned and shipped Career Mode UI screens from scratch within a 50-person team, for a franchise with 200M+ downloads. Worked across Madden NFL and College Football 25 at one of the largest game studios in the world.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Madden NFL",
@@ -28,7 +28,7 @@
 	{
 		"date": "10-18-2022",
 		"title": "Main Game Dev at Rather Labs",
-		"description": "Short-term contract with a NFT & Blockchain company where I worked as a Main Game Dev, creating a street fighter-like NFT game.",
+		"description": "Short-term contract with a 15-person blockchain startup. Built a WebGL fighting game that fetched players' NFT assets in real time and rendered them as unique, fully playable characters.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Rather Labs",
@@ -38,7 +38,7 @@
 	{
 		"date": "08-10-2020",
 		"title": "Lead Game Dev at Agonalea Games",
-		"description": "My first professional experience as a Game Dev. I led a team of developers in the development of Rhythm Realms, one of the games selected for the Google Play Indie Games Fund program.",
+		"description": "Led a 5-person team to ship Rhythm Realms, a Google Play Indie Games Fund award-winning rhythm game that reached 50K+ downloads.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Agonalea Games",
@@ -48,7 +48,7 @@
 	{
 		"date": "11-04-2018",
 		"title": "Full-stack web dev at Cloodie",
-		"description": "My first professional experience in a telemedicine software company. Stack: Vue.js, Node.Js, PHP",
+		"description": "Full-stack role contributing to the modernization of a 15-year-old legacy telemedicine platform, rebuilding core modules with Vue.js, Node.js, and PHP.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Cloodie",
