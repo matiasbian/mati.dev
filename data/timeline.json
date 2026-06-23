@@ -1,5 +1,15 @@
 [
 	{
+		"date": "09-01-2025",
+		"title": "Unity & Backend Dev at Superpower (formerly Cleanplay)",
+		"description": "Solely in charge of the PS4/PS5 app, owning the full lifecycle: new feature development, backend maintenance, CI/CD pipeline, Sony platform deployment, and telemetry instrumentation.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Superpower",
+			"url": "https://getsuperpower.com"
+		}
+	},
+	{
 		"date": "01-05-2024",
 		"title": "Senior Game Dev at Scubalight Studios",
 		"description": "Part of an 11-person team building a multiplayer sandbox game. Led the server architecture migration from a monolith to microservices — each game session now runs as an independent service — and engineered the enemy AI systems.",

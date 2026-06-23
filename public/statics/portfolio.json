@@ -1,5 +1,14 @@
 [
     {
+        "name": "PS4/PS5 App - Superpower (formerly Cleanplay)",
+        "description": "Sole owner of the PS4/PS5 app for a platform with 40K+ users across web and console. Responsibilities span feature development, backend maintenance, CI/CD pipelines, Sony platform deployment, and telemetry instrumentation.",
+        "icon": "🎮",
+        "homepage": "https://getsuperpower.com",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
         "name": "Whimpact! - Level Headed Games | Scubalight Studios",
         "description": "Fall Guys-like multiplayer game built with an 11-person team. Architected the migration from a monolithic server to microservices — each game session now runs as an independent service — and engineered the enemy AI systems.",
         "icon": "🧸",
