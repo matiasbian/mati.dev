@@ -1,7 +1,7 @@
 [
     {
         "name": "Whimpact! - Level Headed Games | Scubalight Studios",
-        "description": "I've been working on a Fall Guys-like multiplayer game since may 2024, adding new gameplay features and creating the backend infrastructure.",
+        "description": "I've been working on a Fall Guys-like multiplayer game since May 2024, adding new gameplay features and creating the backend infrastructure.",
         "icon": "🧸",
         "homepage": "https://store.steampowered.com/app/3131260/Whimpact/",
         "post": "",
@@ -10,7 +10,7 @@
     },
     {
         "name": "College Football 25 - Electronic Arts",
-        "description": "Worked on this game as a UI Game developer. Implemented entirely screens that are used by millions of players",
+        "description": "Worked on this game as a UI Game developer. Implemented entire screens used by millions of players.",
         "icon": "🏈",
         "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
         "post": "",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Madden NFL - Electronic Arts",
-        "description": "Worked on this game as a UI Game developer. Implemented entirely screens that are used by millions of players",
+        "description": "Worked on this game as a UI Game developer. Implemented entire screens used by millions of players.",
         "icon": "🏈",
         "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
         "post": "",
@@ -28,7 +28,7 @@
     },
     {
         "name": "0xMen - Rather Labs",
-        "description": "WebGL NFT Game I developed from scratch, including core gameplay mechanics, multiplayer and AI features. Created an engine for characters creating automation.",
+        "description": "WebGL NFT game I developed from scratch, including core gameplay mechanics, multiplayer, and AI features. Built a character creation automation engine.",
         "icon": "👊🏻",
         "homepage": "https://app.0xmen.game/",
         "post": "",
@@ -66,7 +66,7 @@
     },
     {
         "name": "Eggszy - Deliver Games",
-        "description": "Android Game developed in 2017 with Unity3D. I remastered this game in 2020, adding to it some cool features, like a skins system, ads, in app purchases",
+        "description": "Android game developed in 2017 with Unity3D. I remastered it in 2020, adding some cool features like a skins system, ads, and in-app purchases.",
         "icon": "🥚",
         "post": "",
         "url": "",

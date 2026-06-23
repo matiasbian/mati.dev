@@ -1,8 +1,8 @@
 [
 	{
 		"date": "01-05-2024",
-		"title": "Senior game Dev at Scubalight Studios",
-		"description": "I've been working in a multiplayer sandbox game, creating new gameplay features and improving server stability",
+		"title": "Senior Game Dev at Scubalight Studios",
+		"description": "I've been working on a multiplayer sandbox game, creating new gameplay features and improving server stability",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit the game site",
@@ -18,7 +18,7 @@
 	{
 		"date": "01-01-2023",
 		"title": "Game Dev at Electronic Arts",
-		"description": "I've been working in one of the most popular game dev companies since January 2023 developing Madden NFL, one of the most popular sport game of all time.",
+		"description": "I've been working at one of the most popular game dev companies since January 2023, developing Madden NFL, one of the most popular sports games of all time.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Madden NFL",
@@ -27,7 +27,7 @@
 	},
 	{
 		"date": "10-18-2022",
-		"title": "Main game dev at Rather Labs",
+		"title": "Main Game Dev at Rather Labs",
 		"description": "Short-term contract with a NFT & Blockchain company where I worked as a Main Game Dev, creating a street fighter-like NFT game.",
 		"icon": "feather:briefcase",
 		"link": {
@@ -37,8 +37,8 @@
 	},
 	{
 		"date": "08-10-2020",
-		"title": "Lead game dev at Agonalea Games",
-		"description": "My first professional experience as a Game Dev. I Led a team of developers in the development of Rhythm Realms, one of the selected Google Play Games Fund program",
+		"title": "Lead Game Dev at Agonalea Games",
+		"description": "My first professional experience as a Game Dev. I led a team of developers in the development of Rhythm Realms, one of the games selected for the Google Play Indie Games Fund program.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Agonalea Games",
@@ -57,8 +57,8 @@
 	},
 	{
 		"date": "03-01-2017",
-		"title": "Start University - UNQ",
-		"description": "I Began studying software development at National University of Quilmes",
+		"title": "Started University - UNQ",
+		"description": "I began studying software development at National University of Quilmes.",
 		"icon": "feather:book"
 	},
 	{
@@ -69,8 +69,8 @@
 	},
 	{
 		"date": "03-14-2014",
-		"title": "My first Job",
-		"description": "My first job as a teacher in a school at Instituto San Juan Bautista.",
+		"title": "My First Job",
+		"description": "My first job as a teacher at Instituto San Juan Bautista.",
 		"icon": "feather:book"
 	},
 	{
