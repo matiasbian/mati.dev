@@ -3,7 +3,6 @@
 	"version": 2,
 	"alias": "mati-dev.com.ar",
 	"cleanUrls": true,
-	"public": true,
 	"regions": [
 		"lhr1"
 	],
