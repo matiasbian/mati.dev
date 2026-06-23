@@ -1,7 +1,16 @@
 [
     {
+        "name": "PS4/PS5 App - Superpower (formerly Cleanplay)",
+        "description": "Sole owner of the PS4/PS5 app for a platform with 40K+ users across web and console. Responsibilities span feature development, backend maintenance, CI/CD pipelines, Sony platform deployment, and telemetry instrumentation.",
+        "icon": "🎮",
+        "homepage": "https://getsuperpower.com",
+        "post": "",
+        "url": "",
+        "highlighted": true
+    },
+    {
         "name": "Whimpact! - Level Headed Games | Scubalight Studios",
-        "description": "I've been working on a Fall Guys-like multiplayer game since may 2024, adding new gameplay features and creating the backend infrastructure.",
+        "description": "Fall Guys-like multiplayer game built with an 11-person team. Architected the migration from a monolithic server to microservices — each game session now runs as an independent service — and engineered the enemy AI systems.",
         "icon": "🧸",
         "homepage": "https://store.steampowered.com/app/3131260/Whimpact/",
         "post": "",
@@ -10,7 +19,7 @@
     },
     {
         "name": "College Football 25 - Electronic Arts",
-        "description": "Worked on this game as a UI Game developer. Implemented entirely screens that are used by millions of players",
+        "description": "Owned and shipped key Career Mode UI screens from scratch within a 50-person team. Part of a franchise with 200M+ downloads, these screens are played daily by millions of users.",
         "icon": "🏈",
         "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
         "post": "",
@@ -19,7 +28,7 @@
     },
     {
         "name": "Madden NFL - Electronic Arts",
-        "description": "Worked on this game as a UI Game developer. Implemented entirely screens that are used by millions of players",
+        "description": "Implemented critical Career Mode UI screens from scratch as part of a 50-person team. These screens serve millions of active players in EA's flagship sports franchise with 200M+ downloads.",
         "icon": "🏈",
         "homepage": "https://www.ea.com/es-mx/games/madden-nfl/madden-nfl-23?setLocale=en-us",
         "post": "",
@@ -28,7 +37,7 @@
     },
     {
         "name": "0xMen - Rather Labs",
-        "description": "WebGL NFT Game I developed from scratch, including core gameplay mechanics, multiplayer and AI features. Created an engine for characters creating automation.",
+        "description": "WebGL blockchain fighting game built from scratch with a 15-person team. Engineered a real-time pipeline that fetches each player's NFT assets from the blockchain and renders them as unique, fully playable characters — enabling truly on-chain-driven gameplay.",
         "icon": "👊🏻",
         "homepage": "https://app.0xmen.game/",
         "post": "",
@@ -36,7 +45,7 @@
     },
     {
         "name": "Rhythm Realms - Agonalea Games",
-        "description": "I Led the \"Google Indie Games Fund Award\" winning game team for 2 years. Created core rhythmic mechanics, lootboxes, inventory and season pass features.",
+        "description": "Led a 5-person team for 2 years to ship this Google Play Indie Games Fund award-winning rhythm game, reaching 50K+ downloads. Built the core rhythmic mechanics, loot box system, inventory, and season pass features.",
         "icon": "🎵",
         "homepage": "https://agonaleagames.com/",
         "post": "",
@@ -66,7 +75,7 @@
     },
     {
         "name": "Eggszy - Deliver Games",
-        "description": "Android Game developed in 2017 with Unity3D. I remastered this game in 2020, adding to it some cool features, like a skins system, ads, in app purchases",
+        "description": "Android game developed in 2017 with Unity3D. I remastered it in 2020, adding some cool features like a skins system, ads, and in-app purchases.",
         "icon": "🥚",
         "post": "",
         "url": "",

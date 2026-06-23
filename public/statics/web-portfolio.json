@@ -1,7 +1,7 @@
 [
     {
         "name": "Mu Dinakon",
-        "description": "Developed both frontend and backend (next js) for this web app for a private Mu Online server (Which i'm also currently manteining)",
+        "description": "Full-stack development (Next.js) for a private Mu Online server's web platform, covering frontend and backend. Currently maintaining the live application.",
         "icon": "⚔︎",
         "homepage": "https://www.mudinakon.com/",
         "post": "",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Transporte Gioia e Hijos SRL",
-        "description": "I'm part of Dinasoft team that developed this web app for a transport company. I worked as a fronteand lead developer. Tech stack: Vue.Js and Vuetify.",
+        "description": "Frontend lead on a logistics web app developed for a transport company. Built with Vue.js and Vuetify as part of the Dinasoft team.",
         "icon": "🚛",
         "homepage": "https://dinasoft.tech/",
         "post": "",
@@ -27,7 +27,7 @@
     },
     {
         "name": "Cloodie - Quralo Health Information System",
-        "description": "I was part of the Cloodie's team that developed this web app for health centers. I worked as a fullstack developer, creating microservices with Node.Js, and some frontend pages with Vue.Js",
+        "description": "Contributed to the modernization of a 15-year-old legacy health information platform. Worked as a full-stack developer, building new microservices with Node.js and reimplementing frontend modules with Vue.js.",
         "icon": "👨‍⚕️",
         "homepage": "https://www.quralo.com/",
         "post": "",
@@ -44,7 +44,7 @@
     },
     {
         "name": "GHIDS - Content for media",
-        "description": "I developed some features as freelancer for this content media website.",
+        "description": "I developed some features as a freelancer for this content media website.",
         "icon": "🎬",
         "homepage": "https://ghids.com/",
         "post": "",
