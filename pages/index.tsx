@@ -1,59 +1,10 @@
 import { differenceInYears, isSameDay, isSameMonth } from 'date-fns';
 import { Icon } from '@iconify/react';
+import Link from 'next/link';
 
 import { Animate, Button, Event, Pill } from '~/components';
-import { EventType, NavigationItemType } from '~/types';
+import { EventType } from '~/types';
 import { Layout } from '~/layouts';
-
-import type { NavigationItem } from '~/types';
-
-import { isMobile } from 'react-device-detect';
-
-const ACTIONS: Array<NavigationItem> = [
-	{
-		type: NavigationItemType.LINK,
-		href: '/games',
-		icon: <Icon className="mr-3" icon="feather:dribbble" />,
-		text: 'Portfolio',
-		highlight: isMobile,
-	},
-	{
-		type: NavigationItemType.LINK,
-		href: '/playabletimeline',
-		icon: <Icon className="mr-3" icon="feather:play" />,
-		text: 'Play my timeline',
-		highlight: true,
-	},
-	{
-		type: NavigationItemType.LINK,
-		href: '/playablegames',
-		icon: <Icon className="mr-3" icon="feather:play" />,
-		text: 'Play my web games',
-		highlight: false,
-	},
-];
-
-// remove play timeline option if you are playing in a device.
-if (isMobile) {
-	var fst = ACTIONS[0]
-	ACTIONS[1] = fst
-
-	ACTIONS[0] = {
-		type: NavigationItemType.LINK,
-		href: '/playabletimeline',
-		icon: <Icon className="mr-3" icon="feather:globe" />,
-		text: 'Web Apps',
-		highlight: false,
-	}
-
-	ACTIONS[2] = {
-		type: NavigationItemType.LINK,
-		external: true,
-		href: 'https://www.linkedin.com/in/matiasbian/',
-		icon: <Icon className="mr-3" icon="feather:linkedin" />,
-		text: 'LinkedIn',
-	}
-}
 
 export default function HomePage() {
 	const today = new Date();
@@ -74,7 +25,7 @@ export default function HomePage() {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-whitetext-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
+						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold"
 					>
 						I&apos;m Matías, <br className="hidden sm:block" />a{' '}
 						<Pill.Standard className="mt-4">game dev.</Pill.Standard>
@@ -95,29 +46,46 @@ export default function HomePage() {
 						{description}
 					</Animate>
 
-					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
-						{ACTIONS.map((action, index) => {
-							if (action.type !== NavigationItemType.LINK) return null;
+					<div className="flex flex-col items-center justify-center w-full mt-8 sm:mt-4">
+						<Animate
+							animation={{
+								y: [50, 0],
+								opacity: [0, 1],
+							}}
+							className="w-full sm:w-auto"
+							transition={{
+								delay: 0.7,
+							}}
+						>
+							<Button.Outline href="/games" highlight>
+								<Icon className="mr-3" icon="feather:dribbble" />
+								<span>Portfolio</span>
+							</Button.Outline>
+						</Animate>
 
-							return (
-								<Animate
-									animation={{
-										y: [50, 0],
-										opacity: [0, 1],
-									}}
-									className="w-full sm:w-auto"
-									key={index}
-									transition={{
-										delay: 0.1 * (index + 2) + 0.5,
-									}}
-								>
-									<Button.Outline href={action.href} highlight={action.highlight}>
-										{action.icon}
-										<span>{action.text}</span>
-									</Button.Outline>
-								</Animate>
-							);
-						})}
+						<Animate
+							as="p"
+							animation={{
+								opacity: [0, 1],
+							}}
+							className="mt-4 text-sm text-gray-400 dark:text-gray-500"
+							transition={{
+								delay: 1,
+							}}
+						>
+							or,{' '}
+							<Link href="/playabletimeline" passHref>
+								<a className="text-primary-500 hover:underline font-medium default-transition default-focus rounded">
+									play through my timeline
+								</a>
+							</Link>
+							{' · '}
+							<Link href="/playablegames" passHref>
+								<a className="text-primary-500 hover:underline font-medium default-transition default-focus rounded">
+									play my web games
+								</a>
+							</Link>
+						</Animate>
 					</div>
 				</div>
 			</div>

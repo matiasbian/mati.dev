@@ -25,7 +25,6 @@ export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
 
 export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 	const projects = projectsJson;//JSON.parse(stringifiedProjects) as Array<Project>;
-	console.log('extras', projectsJson)
 
 
 	return (
