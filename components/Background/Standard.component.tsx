@@ -98,5 +98,5 @@ export function Standard() {
 		return () => cancelAnimationFrame(animationId);
 	});
 
-	return <div className="fixed inset-0" ref={containerRef} />;
+	return <div className="fixed inset-0 -z-10" ref={containerRef} />;
 }
